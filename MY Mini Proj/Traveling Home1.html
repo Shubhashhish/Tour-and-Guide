@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive tour and traveling website design</title>
+
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="Traveling1.css">
+</head>
+<body>
+
+<!--header section start-->
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>Tourists</span> Galore</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="./Book Traveling.html">Book</a>
+        <a href="./Package Traveling.html">Package</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="./About Traveling.html">About</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+        
+</header>
+<!--header section ends-->
+
+
+<!--login form container-->
+
+<div class="login-form-container">
+    <i class="fas fa-time" id="form-close"></i>
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" class="btn" value="login now">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>Don't have an account? <a href="#">Register Now</a></p>
+    </form>
+</div>
+
+<!--home section starts-->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Adventure is Worthwhile</h3>
+        <p>Discover new places with us, adventure awaits</p>
+        <a href="./Package Traveling.html" class="btn">Discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/Tvid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/Tvid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/Tvid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/Tvid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/Tvid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/Tvid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+<!--home section ends-->
+
+<!--services section starts-->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Hotels</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur nulla necessitatibus ullam sit molestias non eum fugiat ipsa tempore.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food and Drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur nulla necessitatibus ullam sit molestias non eum fugiat ipsa tempore.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safty Guides</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur nulla necessitatibus ullam sit molestias non eum fugiat ipsa tempore.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around the World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur nulla necessitatibus ullam sit molestias non eum fugiat ipsa tempore.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest Travel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur nulla necessitatibus ullam sit molestias non eum fugiat ipsa tempore.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur nulla necessitatibus ullam sit molestias non eum fugiat ipsa tempore.</p>
+        </div>
+    </div>
+</section>
+<!--services section ends-->
+
+<!--contact section starts-->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="images/Tcontact.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+<!--contact section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, qui nesciunt? Excepturi cumque ipsam officia necessitatibus sequi? Culpa, alias maiores. Sapiente ullam rem sequi natus aliquam, eveniet animi iste error?</p>
+        </div>
+        <div class="box">
+            <h3>Branch Locations</h3>
+            <a href="#">INDIA</a>
+            <a href="#">USA</a>
+            <a href="#">ENGLAND</a>
+            <a href="#">FRANCE</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="./Book Traveling.html">Book</a>
+            <a href="./Package Traveling.html">Packages</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="./About Traveling.html">About</a>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="https://www.facebook.com/">facebook</a>
+            <a href="https://www.instagram.com/">instagram</a>
+            <a href="https://twitter.com/i/flow/login">twitter</a>
+            <a href="https://in.linkedin.com/">linkedin</a>
+        </div>
+    </div>
+
+    <h1 class="credit">Credited By <span>Mr. Shubhashish Mohanta </span> | All rights reserved!</h1>
+</section>
+<!--footer section ends-->
+
+
+
+
+    <script src="Traveling1.js"></script>
+    
+</body>
+</html>
